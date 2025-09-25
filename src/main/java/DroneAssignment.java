@@ -16,10 +16,19 @@ public class DroneAssignment {
         int displayAltitude = (int)altitude;
         int batteryRounded = (int)battery;
 
+        System.out.println("Display Altitude: " + displayAltitude);
+        System.out.println("Battery Rounded: " + batteryRounded);
+
+
+
         displayAltitude += 20;
+        System.out.println("After climbing 20m: " + displayAltitude);
         batteryRounded -= 15;
+        System.out.println("After battery drain: " + batteryRounded);
         photos += 3;
+        System.out.println("After taking 3 photos:" + photos);
         displayAltitude /=2;
+        System.out.println("After descending to half: " + displayAltitude);
         System.out.println("Photos: " + photos);
         photos %= 4;
         System.out.println("Storage slots used: " + photos + " out of 4");
