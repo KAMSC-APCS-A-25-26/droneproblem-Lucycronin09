@@ -24,19 +24,5 @@ public class DroneAssignment {
         photos %= 4;
         System.out.println("Storage slots used: " + photos + " out of 4");
 
-
-        // TODO: Part 1 - Casting
-        // Cast altitude (double) to int called displayAltitude
-        // Cast battery (double) to int called batteryRounded
-        // Print them to check your work (optional)
-        
-        // TODO: Part 2 - Compound Assignment Operators
-        // Altitude: Drone climbs 20 meters 
-        // Battery: Battery drains 15% 
-        // Photos: Drone takes 3 photos 
-        // Altitude: Drone descends to half its current altitude 
-        // use modulo to calculate storage slots used on photos to calculate storage slots used
-        // Display "Photos: " + photos
-        // Display "Storage slots used: " + photos + " out of 4"
     }
 }
